@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const NewContainer = styled.section`
-  background-color: #000;
   width: 100vw;
   height: 25vh;
   padding-top: 40px;
