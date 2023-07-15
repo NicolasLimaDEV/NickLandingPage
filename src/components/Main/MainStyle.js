@@ -7,6 +7,9 @@ export const MainContainer = styled.main`
   flex-direction: column;
   width: 100vw;
   height: 100vh;
+  background: radial-gradient(circle, #232323 10%, transparent 20%);
+  background-size: 1em 1em;
+  background-color: #101010;
 
   > h1{
     font-size: 80px;
