@@ -87,6 +87,10 @@ export const Card = styled.div`
     border-radius: 5px;
     cursor: pointer;
 
+    &:active{
+      color: #fff;
+    }
+
     &:hover{
       transform: scale(1.03);
       color: #16C17C;
