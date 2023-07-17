@@ -21,8 +21,16 @@ export const OneColumn = styled.div`
     width: 600px;
   }
 
+  @media screen and (max-width: 1280px){
+    margin-left: 1rem;
+  }
+
   @media screen and (max-width: 1024px){
     margin-left: 1rem;
+
+    > img{
+      width: 480px;
+    }
   }
 
   @media screen and (max-width: 769px){
@@ -71,6 +79,11 @@ export const TwoColumn = styled.div`
       box-shadow: 0px 0px 10px #11e590;
       transition: 200ms;
     }
+  }
+
+  @media screen and (max-width: 1280px){
+    margin-right: 1rem;
+    padding: 10px;
   }
 
   @media screen and (max-width: 1024px){

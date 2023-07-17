@@ -28,6 +28,15 @@ export const NewOneColumn = styled.div`
     opacity: 0.7;
   }
 
+  @media screen and (max-width: 1280px){
+    padding: 10px;
+    margin-left: 1rem;
+
+    h3{
+      font-size: 30px;
+    }
+  }
+
   @media screen and (max-width: 1024px){
     margin-left: 1rem;
 
@@ -83,6 +92,11 @@ export const DivInput = styled.div`
     border: none;
     outline: none;
     font-size: 17px;
+
+    @media screen and (max-width: 1024px){
+      padding: 8px;
+      font-size: 16px;
+    }
   }
   
   > button{
@@ -102,6 +116,11 @@ export const DivInput = styled.div`
       transform: scale(1.03);
       box-shadow: 0px 0px 10px #11e590;
       transition: 200ms;
+    }
+
+    @media screen and (max-width: 1024px){
+      padding: 8px 15px;
+      font-size: 16px;
     }
   }
 

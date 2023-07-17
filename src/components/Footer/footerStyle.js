@@ -7,6 +7,10 @@ export const FooterContainer = styled.footer`
   padding-top: 50px;
   padding-bottom: 100px;
 
+  @media screen and (max-width: 1280px){
+    padding: 30px 10px;
+  }
+
   @media screen and (max-width: 769px) {
     flex-direction: column;
     padding: 30px 10px;
@@ -25,7 +29,11 @@ export const FooterOneColumn = styled.div`
     width: 450px;
     opacity: 0.7;
   }
-
+  
+  @media screen and (max-width: 1280px){
+    margin-left: 3rem;
+  }
+  
   @media screen and (max-width: 1024px){
     margin-left: 2rem;
   }
@@ -55,6 +63,10 @@ export const FooterTwoColumn = styled.div`
       opacity: 0.6;
       cursor: pointer;
     }
+  }
+
+  @media screen and (max-width: 1280px){
+    margin-right: 3rem;
   }
 
   @media screen and (max-width: 1024px){

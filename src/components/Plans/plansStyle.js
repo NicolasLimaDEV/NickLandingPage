@@ -29,6 +29,10 @@ export const Card = styled.div`
   box-shadow: 0px 0px 10px #aaa;
   transition: 540ms;
 
+  @media screen and (max-width: 1024px){
+    padding: 10px;
+  }
+
   &:hover{
     transition: 200ms;
     transform: scale(1.06);
@@ -48,6 +52,10 @@ export const Card = styled.div`
 
   > img{
     margin-top: -20px;
+
+    @media screen and (max-width: 1024px){
+      width: 70px;
+    }
   }
 
   > h3{
