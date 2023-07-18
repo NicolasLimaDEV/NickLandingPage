@@ -41,6 +41,7 @@ export const MainContainer = styled.main`
 
   @media screen and (max-width: 769px){
     padding: 10px;
+    padding-top: 50px;
     height: 50vh;
 
     > h1{
