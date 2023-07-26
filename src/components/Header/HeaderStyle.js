@@ -55,7 +55,7 @@ export const Nav = styled.nav`
   }
 
   @media screen and (max-width: 769px) {
-    display: ${({ open }) => (open ? "none" : "block")};
+    display: ${({ open }) => (open ? "block" : "none")};
     width: 250px;
     padding: 0px 20px;
     height: 100vh;
